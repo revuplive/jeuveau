@@ -285,9 +285,9 @@ body .banner-section .hs-button.primary:hover {
 
 .new-banner-with-girl-img .text-block-inner .girl-img {
     position: absolute;
-    bottom: -338px;
-    right: -150px;
-    max-width: 523px
+    bottom: -257px;
+    right: 0px;
+    max-width: 403px;
 }
 
 .new-banner-with-girl-img .text-block-inner .girl-img img {
