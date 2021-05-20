@@ -1,0 +1,182 @@
+.evolus-footer-container {
+    background: #3e4041;
+    padding: 85px 0 65px
+}
+
+.evolus-footer-inner-container .footer-logo img {
+    max-width: 145px;
+    width: 100%
+}
+
+.evolus-footer-inner-container p,
+.evolus-footer-inner-container li {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #a2a2a2;
+    font-family: 'EuclidCircularBRegular';
+    font-weight: normal;
+    margin: 0 0 25px
+}
+
+.evolus-footer-container .page-center {
+    max-width: 1475px
+}
+
+.evolus-footer-container .page-center {
+    max-width: 1475px !important;
+    padding: 0 15px
+}
+
+.evolus-footer-inner-container .evolus-footer-left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 50px
+}
+
+.evolus-footer-inner-container .evolus-footer-left .footer-logo {
+    width: 145px
+}
+
+.evolus-footer-inner-container .evolus-footer-left .footer-text {
+    width: calc(100% - 145px);
+    width: -moz-calc(100% - 145px);
+    width: -webkit-calc(100% - 145px)
+}
+
+.evolus-footer-inner-container .evolus-footer-left .footer-text .footer-text-inner {
+    max-width: 450px;
+    padding: 0 20px;
+    margin-left: 8%
+}
+
+.evolus-footer-inner-container .footer-bottom-arrow {
+    text-align: center
+}
+
+.evolus-footer-inner-container .footer-bottom-arrow img {
+    max-width: 32px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s
+}
+
+.evolus-footer-inner-container .footer-bottom-arrow img.active {
+    transform: rotate(180deg)
+}
+
+.evolus-footer-inner-container .read-more-text {
+    width: 100% !important
+}
+
+.evolus-footer-inner-container .evolus-footer-left.less-padding {
+    margin-bottom: 10px
+}
+
+.evolus-footer-inner-container li {
+    margin: 0 0 15px
+}
+
+.evolus-footer-inner-container .read-more-text ul {
+    padding: 0 0 0 15px
+}
+
+.footer-togal-heading h3 {
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    font-family: 'EuclidCircularBBold';
+    font-weight: normal;
+    letter-spacing: .5px
+}
+
+.footer-togal-heading {
+    text-align: center;
+    margin-bottom: 30px
+}
+
+@media screen and (max-width:1199px) {
+    .evolus-footer-container {
+        padding: 70px 0 60px
+    }
+    .evolus-footer-inner-container .evolus-footer-left {
+        margin-bottom: 50px
+    }
+}
+
+@media screen and (max-width:991px) {
+    .evolus-footer-inner-container .evolus-footer-left {
+        flex-direction: column
+    }
+    .evolus-footer-inner-container .evolus-footer-left .footer-text {
+        width: 100%
+    }
+    .evolus-footer-inner-container .evolus-footer-left .footer-text .footer-text-inner {
+        max-width: 100%;
+        padding: 0;
+        margin-left: 0
+    }
+    .evolus-footer-inner-container .evolus-footer-left .footer-logo {
+        width: 100%;
+        margin-bottom: 30px
+    }
+    .evolus-footer-inner-container .evolus-footer-left {
+        margin-bottom: 30px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .evolus-footer-inner-container .evolus-footer-left {
+        width: 100%
+    }
+    .evolus-footer-inner-container {
+        text-align: center
+    }
+    .desktop-show {
+        display: none
+    }
+    .evolus-footer-inner-container .mobile-show {
+        width: 100%
+    }
+    .evolus-footer-inner-container .evolus-footer-left .footer-logo {
+        margin-bottom: 50px
+    }
+    .evolus-footer-inner-container .footer-bottom-arrow {
+        margin-top: 20px
+    }
+    .evolus-footer-inner-container .evolus-footer-left .footer-text {
+        margin-top: 30px
+    }
+    .evolus-footer-inner-container .read-more-text p:last-child {
+        margin-bottom: 0
+    }
+    .evolus-footer-inner-container p,
+    .evolus-footer-inner-container li {
+        margin: 0 0 20px
+    }
+    .evolus-footer-inner-container .evolus-footer-left {
+        margin-bottom: 0
+    }
+    .evolus-footer-inner-container .evolus-footer-left .footer-text .footer-text-inner p:last-child {
+        margin-bottom: 0
+    }
+    .evolus-footer-container {
+        padding: 45px 0 45px
+    }
+    .evolus-footer-inner-container .read-more-text {
+        margin-top: 20px
+    }
+    .evolus-footer-inner-container p,
+    .evolus-footer-inner-container li {
+        font-size: 12px
+    }
+}
