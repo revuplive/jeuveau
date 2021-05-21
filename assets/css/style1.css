@@ -76,6 +76,11 @@ ul.inputs-list a {
     position: absolute
 }
 
+.banner-heading img {
+    width: 180px;
+    margin-top: 120px;
+}
+
 body input[type="text"],
 body input[type="password"],
 body input[type="datetime"],
@@ -210,7 +215,7 @@ body .banner-section .hs-button.primary:hover {
 }
 
 .banner-inner-block .form-block {
-    width: 50%;
+    width: 46%;
     margin-bottom: -60px;
     display: flex;
     flex-direction: row;
@@ -220,7 +225,7 @@ body .banner-section .hs-button.primary:hover {
 }
 
 .banner-inner-block .text-block {
-    width: 50%;
+    width: 54%;
     position: relative;
     overflow: hidden
 }
@@ -285,9 +290,9 @@ body .banner-section .hs-button.primary:hover {
 
 .new-banner-with-girl-img .text-block-inner .girl-img {
     position: absolute;
-    bottom: -338px;
-    right: -150px;
-    max-width: 523px
+    bottom: -257px;
+    right: 0px;
+    max-width: 403px;
 }
 
 .new-banner-with-girl-img .text-block-inner .girl-img img {
@@ -331,11 +336,15 @@ body .banner-section .hs-button.primary:hover {
     z-index: 1
 }
 
+.banner-heading h1 {
+    font-size: 38px;
+}
+
 @media screen and (max-width:1360px) {
     .new-banner-with-girl-img .text-block-inner .girl-img {
-        max-width: 446px;
-        right: -111px;
-        bottom: -330px
+        max-width: 350px;
+        right: 0px;
+        bottom: -231px;
     }
 }
 
@@ -348,9 +357,14 @@ body .banner-section .hs-button.primary:hover {
     }
     .new-banner-with-girl-img .text-block-inner .girl-img {
         max-width: 300px;
-        right: -69px;
-        bottom: -198px
+        right: 0px;
+        bottom: -201px;
     }
+
+    .banner-heading h1 {
+        font-size: 30px;
+    }
+
     .form-body {
         padding: 60px 35px 50px
     }
@@ -433,6 +447,11 @@ body .banner-section .hs-button.primary:hover {
         {
         % set aColorHoverMobile="#E2E2E2" %
     }
+    .banner-heading img {
+        width: 180px;
+        margin-top: 10px;
+    }
+
     a.mobile-trigger-new {
         display: inline-block !important;
         cursor: pointer;
@@ -619,6 +638,7 @@ body .banner-section .hs-button.primary:hover {
         margin: 0 auto;
         margin-bottom: -55%
     }
+
     .form-heading-block h3 {
         font-size: 22px;
         margin-bottom: 15px;
