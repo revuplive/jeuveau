@@ -620,7 +620,7 @@ body .banner-section .hs-button.primary:hover {
         font-size: 18px
     }
     .text-block-inner h1 {
-        font-size: 34px;
+        font-size: 27px;
         margin-bottom: 20px
     }
     .text-block-inner {
@@ -632,10 +632,10 @@ body .banner-section .hs-button.primary:hover {
     .new-banner-with-girl-img .text-block-inner .girl-img {
         position: absolute;
         right: -35px;
-        max-width: 80%;
+        max-width: 58%;
         margin: 0 auto;
         margin-bottom: -55%;
-        top: 58%;
+        top: 48%;
     }
 
     .form-heading-block h3 {
@@ -700,4 +700,8 @@ body .banner-section .hs-button.primary:hover {
     body .banner-section .hs-button.primary {
         font-size: 14px
     }
+}
+
+.read-more-text {
+    color: #a2a2a2;
 }
