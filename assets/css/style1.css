@@ -6,7 +6,8 @@
 
 .banner-inner-block {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 .text-block-inner {
@@ -444,7 +445,7 @@ body .banner-section .hs-button.primary:hover {
         % set aColorHoverMobile="#E2E2E2" %
     }
     .banner-heading img {
-        width: 180px;
+        width: 140px;
         margin-top: 10px;
     }
 
@@ -606,7 +607,8 @@ body .banner-section .hs-button.primary:hover {
         padding: 0 45px
     }
     .new-banner-with-girl-img .form-body {
-        margin: 0 20px
+        margin: 65px 20px;
+        min-width: 350px;
     }
     .top-banner-logo img {
         max-width: 115px
@@ -633,7 +635,7 @@ body .banner-section .hs-button.primary:hover {
         max-width: 80%;
         margin: 0 auto;
         margin-bottom: -55%;
-        top: 65%;
+        top: 58%;
     }
 
     .form-heading-block h3 {
