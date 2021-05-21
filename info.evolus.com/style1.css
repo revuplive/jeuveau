@@ -215,7 +215,7 @@ body .banner-section .hs-button.primary:hover {
 }
 
 .banner-inner-block .form-block {
-    width: 50%;
+    width: 46%;
     margin-bottom: -60px;
     display: flex;
     flex-direction: row;
@@ -225,7 +225,7 @@ body .banner-section .hs-button.primary:hover {
 }
 
 .banner-inner-block .text-block {
-    width: 50%;
+    width: 54%;
     position: relative;
     overflow: hidden
 }
