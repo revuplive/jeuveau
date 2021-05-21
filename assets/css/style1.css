@@ -327,10 +327,6 @@ body .banner-section .hs-button.primary:hover {
     padding: 0
 }
 
-.right-side-form .banner-inner-block {
-    flex-direction: row-reverse
-}
-
 .text-block-inner .banner-heading {
     position: relative;
     z-index: 1
@@ -632,11 +628,12 @@ body .banner-section .hs-button.primary:hover {
         margin-top: 30px
     }
     .new-banner-with-girl-img .text-block-inner .girl-img {
-        position: static;
-        right: 0;
+        position: absolute;
+        right: -35px;
         max-width: 80%;
         margin: 0 auto;
-        margin-bottom: -55%
+        margin-bottom: -55%;
+        top: 65%;
     }
 
     .form-heading-block h3 {
