@@ -7,7 +7,6 @@
 .banner-inner-block {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
 }
 
 .text-block-inner {
@@ -123,13 +122,7 @@ body select {
 }
 
 .form-body {
-    padding: 60px 60px 90px;
-    background: #fafafa;
     position: relative;
-    -webkit-box-shadow: 0px 0px 40px 0px rgb(0 0 0 / 19%);
-    -moz-box-shadow: 0px 0px 40px 0px rgb(0 0 0 / 19%);
-    box-shadow: 0px 0px 40px 0px rgb(0 0 0 / 19%);
-    border-radius: 10px;
     z-index: 5
 }
 
@@ -336,12 +329,17 @@ body .banner-section .hs-button.primary:hover {
 .banner-heading h1 {
     font-size: 38px;
 }
-
+.form-body {
+    width: 380px;
+}
 @media screen and (max-width:1360px) {
     .new-banner-with-girl-img .text-block-inner .girl-img {
         max-width: 350px;
         right: 0px;
         bottom: -231px;
+    }
+    .banner-text h1 {
+        font-size: 54px;
     }
 }
 
@@ -432,18 +430,13 @@ body .banner-section .hs-button.primary:hover {
     .js-enabled .hs-menu-flow-horizontal {
         display: block
     }
+
+    .form-body {
+        min-height: 430px;
+    }
 }
 
 @media(max-width:767px) {
-        {
-        % set menuColorMobile="#000" %
-    }
-        {
-        % set aColorMobile="#E2E2E2" %
-    }
-        {
-        % set aColorHoverMobile="#E2E2E2" %
-    }
     .banner-heading img {
         width: 140px;
         margin-top: 10px;
@@ -589,9 +582,7 @@ body .banner-section .hs-button.primary:hover {
     .top-banner-logo {
         padding-bottom: 00
     }
-    .right-side-form .banner-inner-block {
-        flex-direction: column-reverse
-    }
+  
     .banner-inner-block .form-block {
         width: 100%;
         margin-bottom: 0
@@ -606,10 +597,7 @@ body .banner-section .hs-button.primary:hover {
     .new-banner-with-girl-img .text-block-inner {
         padding: 0 45px
     }
-    .new-banner-with-girl-img .form-body {
-        margin: 65px 20px;
-        min-width: 350px;
-    }
+   
     .top-banner-logo img {
         max-width: 115px
     }
@@ -635,7 +623,7 @@ body .banner-section .hs-button.primary:hover {
         max-width: 58%;
         margin: 0 auto;
         margin-bottom: -55%;
-        top: 48%;
+        top: 10%;
     }
 
     .form-heading-block h3 {
@@ -667,7 +655,8 @@ body .banner-section .hs-button.primary:hover {
         transform: translate(-50%, -50%)
     }
     .form-body {
-        padding: 40px 25px 30px
+        padding: 40px 25px 30px;
+        background: none;
     }
     .new-banner-with-girl-img form.hs-form .hs_guest_postal_code .hs-input {
         max-width: 100%
@@ -684,10 +673,6 @@ body .banner-section .hs-button.primary:hover {
         margin-left: 5%;
         margin-top: 10px
     }
-    .banner-inner-block .form-block {
-        background: #f6f6f6;
-        margin-top: -125px
-    }
     .banner-inner-block .text-block {
         background: rgba(255, 255, 255, 1);
         background: -webkit-linear-gradient(#d74d90, #f27c5a);
@@ -700,8 +685,40 @@ body .banner-section .hs-button.primary:hover {
     body .banner-section .hs-button.primary {
         font-size: 14px
     }
+
+    .banner-text h1 {
+        padding: 0 45px;
+        font-size: 28px;
+    }
 }
 
 .read-more-text {
     color: #a2a2a2;
+}
+
+
+
+.banner-text h1 {
+    margin-top: 20px;
+    color: #fff;
+    margin: 0;
+    line-height: normal;
+    margin-bottom: 20px;
+    font-family: 'EuclidCircularBBold';
+    font-weight: normal;
+}
+
+.virtual-book {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.banner-text {
+    padding-top: 30px;
+}
+
+.virtual-book a {
+    text-decoration: underline;
+    color: #fff;
 }
